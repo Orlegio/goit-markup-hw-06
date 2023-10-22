@@ -50,77 +50,77 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="menu-open-btn">
+        <button type="button" class="menu-open-btn js-open-menu">
           <svg width="32" height="22">
             <use href="./images/icons.svg#icon-menu"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu">
-        <button class="modal-close-btn" type="button">
+      <div class="mobile-menu js-menu-container">
+        <button class="modal-close-btn js-close-menu" type="button">
           <svg class="modal-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <nav class="mobile-nav">
-        
           <ul class="mobile-nav-list">
             <li class="mobile-nav-item">
               <a class="mobile-nav-link active" href="./index.html">Studio</a>
             </li>
             <li class="mobile-nav-item">
-              <a class="mobile-nav-link" href="./portfolio.html">Portfolio</a>
+              <a class="mobile-nav-link" href="#">Portfolio</a>
             </li>
-            <li class="mobile-nav-item"><a class="mobile-nav-link" href="">Contacts</a></li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
         <div class="mobile-box">
-        <address class="mobile-address">
-          <ul class="mobile-contact-list">
-           
-            <li  class="mobile-contact-item">
-              <a class="mobile-contact-link active" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
+          <address class="mobile-address">
+            <ul class="mobile-contact-list">
+              <li class="mobile-contact-item">
+                <a class="mobile-contact-link active" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-contact-item">
+                <a class="mobile-contact-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-social-list">
+            <li class="social-item footer-item">
+              <a href="" class="link social-link footer-soc-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="mobile-contact-item">
-              <a class="mobile-contact-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+            <li class="social-item footer-item">
+              <a href="" class="link social-link footer-soc-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item footer-item">
+              <a href="" class="link social-link footer-soc-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item footer-item">
+              <a href="" class="link social-link footer-soc-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
-        <ul class="mobile-social-list">
-          <li class="social-item footer-item">
-            <a href="" class="link social-link footer-soc-link">
-              <svg class="social-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-item footer-item">
-            <a href="" class="link social-link footer-soc-link">
-              <svg class="social-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-item footer-item">
-            <a href="" class="link social-link footer-soc-link">
-              <svg class="social-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-item footer-item">
-            <a href="" class="link social-link footer-soc-link">
-              <svg class="social-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
+        </div>
       </div>
     </header>
     <main>
@@ -194,7 +194,10 @@
           <ul class="list tim-list">
             <li class="team-item">
               <img
-              srcset="./images/mark-guerrero.jpg 1x, ./images/mark@2x-min.jpg 2x"
+                srcset="
+                  ./images/mark-guerrero.jpg 1x,
+                  ./images/mark@2x-min.jpg   2x
+                "
                 src="./images/mark-guerrero.jpg"
                 alt="mark-guerrero"
                 width="264"
@@ -238,7 +241,7 @@
             </li>
             <li class="team-item">
               <img
-              srcset="./images/tom-ford.jpg 1x, ./images/tom@2x-min.jpg 2x"
+                srcset="./images/tom-ford.jpg 1x, ./images/tom@2x-min.jpg 2x"
                 src="./images/tom-ford.jpg"
                 alt="tom-ford"
                 width="264"
@@ -282,7 +285,10 @@
             </li>
             <li class="team-item">
               <img
-              srcset="./images/camila-carcia.jpg 1x, ./images/camila@2x-min.jpg 2x"
+                srcset="
+                  ./images/camila-carcia.jpg 1x,
+                  ./images/camila@2x-min.jpg 2x
+                "
                 src="./images/camila-carcia.jpg"
                 alt="camila-carcia"
                 width="264"
@@ -327,7 +333,10 @@
 
             <li class="team-item">
               <img
-              srcset="./images/daniel-wilson.jpg 1x, ./images/daniel@2x-min.jpg 2x"
+                srcset="
+                  ./images/daniel-wilson.jpg 1x,
+                  ./images/daniel@2x-min.jpg 2x
+                "
                 src="./images/daniel-wilson.jpg"
                 alt="daniel-wilson"
                 width="264"
@@ -697,9 +706,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop ">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-close-btn" type="button">
+        <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -775,14 +784,21 @@
                 </svg>
               </span>
               <span>
-              I accept the terms and conditions of the
-              <a href="" class="modal-check-link">Privacy Policy</a></span></label
-            >
+                I accept the terms and conditions of the
+                <a href="" class="modal-check-link">Privacy Policy</a></span
+              ></label>
           </div>
           <button type="submit" class="modal-form-btn">Send</button>
         </form>
       </div>
     </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
